@@ -1,6 +1,7 @@
 {
   "name": "VoicePackBot",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.10.2",
+    "needle": "^2.5.0",
     "node-telegram-bot-api": "^0.50.0",
-    "nodemon": "^2.0.4"
-  },
-  "devDependencies": {},
-  "description": ""
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
 }
